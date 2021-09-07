@@ -1,0 +1,11 @@
+IF :Battery==0 THEN GOTO3 END IF :LA THEN GOTO4 END
+IF :LM AND :LL AND :LR AND :LA==0 THEN GOTO3 END GOTO1//ignore 1 or 2
+:LA=0 :LM=0 :LL=0 :LR=0 GOTO1 //all off
+:LM=1 :LL=1 :LR=1//all on
+:LM=0 :LL=0 :LR=0 GOTO1 //pulse lasers
+
+//LA = laser all aka master on button
+//LM = laser middle
+//LL = laser left
+//LR = laser right
+//meant for three lasers
