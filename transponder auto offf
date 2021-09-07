@@ -1,0 +1,20 @@
+IF :transponder==0 THEN GOTO1 END
+//easiest code to make in the game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:transponder=0
